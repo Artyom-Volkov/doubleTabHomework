@@ -11,7 +11,8 @@
         android:theme="@style/Theme.Lesson3">
         <activity
             android:name=".HabitEditingActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/edit_to_habit"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
