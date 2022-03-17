@@ -119,7 +119,7 @@ class HabitEditingActivity : AppCompatActivity() {
             putExtra(EXTRA_PRIORITY_FROM, prioritySpinner.selectedItem.toString().toInt())
             putExtra(EXTRA_EXECUTION_NUMBER_FROM, executionNumberEditText.text.toString().toInt() )
             putExtra(EXTRA_COUNT_TIME_PERIOD_FROM, countTimePeriodEditText.text.toString().toInt())
-            putExtra(EXTRA_TIME_PERIOD_FROM, timePeriodSpinner.selectedItem.toString())
+            putExtra(EXTRA_TIME_PERIOD_FROM, timePeriodSpinner.selectedItemPosition)
             putExtra(EXTRA_DECR_FROM, habitDecrEditText.text.toString())
             putExtra(EXTRA_TYPE_FROM,
                 when(habitTypeRadioGroup.checkedRadioButtonId){
